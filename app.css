@@ -28,6 +28,7 @@ body{
     width: 1300px;
     height: 650px;
 }
+
 #title_bar{
     position: relative;
     margin:0 10px 0 10px;
@@ -78,13 +79,13 @@ body{
     font-style: bold;
     text-align: center;
     color: rgb(230, 230, 230);
-    margin: 5px 20px 5px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 10px 50px 10px 50px;
 }
 .words{
     height:60px;
     width:350px;
-    background-color: rgb(176, 197, 255);
+    background-color:rgb(176, 197, 255);
 
     text-align: center;
     font-family: sans-serif;
@@ -121,8 +122,62 @@ body{
     float:right;
     height:300px;
     width:400px;
-    background-color: lightgreen;
+    background-color: rgba(167, 255, 179, 0.6);
 
     margin: -250px 100px 0 0;
     padding: 10px 10px 10px 10px;
+}
+
+
+.User,.select_1,.select_2,.select_3{
+    animation: fadeIn 5s;
+}
+.round_water{
+    animation: zoomIn 1s;
+}
+.picture{
+    animation: picture_fadeIn 5s;
+}
+.words{
+    animation: box_move 2s;
+}
+.content{
+    animation: content_fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    40% {opacity: 1;}
+}
+@keyframes picture_fadeIn {
+    0% {opacity: 0;}
+    30% {opacity: 0}
+    40% {opacity: 1;}
+}
+@keyframes zoomIn {
+    10% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    30% {
+      opacity: 1;
+    }
+}
+@keyframes slideInUp {
+    40% {
+        transform: translate3d(0, 100%, 0);
+        visibility: hidden;
+    }
+    60% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes box_move{
+    0% {width:0px;color:aliceblue; font-size:0px ;background-color:aliceblue;}
+    60% {width:350px; color:rgb(176, 197, 255); font-size:50px; background-color:rgb(176, 197, 255);}
+    70% {width:350px;background-color:rgb(176, 197, 255);}
+}
+@keyframes content_fadeIn {
+    0% {color: aliceblue;}
+    60% {color:aliceblue;}
+    70% {color:rgb(105, 105, 105);}
 }
