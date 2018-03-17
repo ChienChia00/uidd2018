@@ -19,7 +19,6 @@ body{
     border-radius: 10px;
     background-color: aliceblue;
 }
-
 .icon{
     margin: 5px 4px 5px 70px;
     
@@ -84,6 +83,7 @@ body{
 
 }
 .content{
+    overflow: hidden;
     height:200px;
     width:350px;
     background-color: aliceblue;
@@ -112,29 +112,14 @@ body{
     width:400px;
     background-color: rgba(167, 255, 179, 0.6);
 
-    margin: -250px 100px 0 0;
+    margin: -250px 100px 0px 0;
     padding: 10px 10px 10px 10px;
 }
 
 
-.User,.select{
-    animation: fadeIn 5s;
-}
-.round_water{
-    animation: zoomIn 1s;
-}
-.picture{
-    animation: picture_fadeIn 5s;
-}
-.words{
-    animation: box_move 2s;
-}
-.content{
-    animation: content_fadeIn 2s;
-}
-.text:hover{
-    position: relative;
-    font-size: 25px;
+.select:hover, #select_0:hover{
+    color: rgb(230, 230, 230);
+    background-color: rgb(0, 110, 255);
 }
 .words:hover {
     letter-spacing: 5px;
@@ -143,41 +128,13 @@ body{
     animation: button-hover-effect 7s ease infinite;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
 }
-
 .select:hover, #select_0:hover{
     color: rgb(230, 230, 230);
     background-color: rgb(0, 110, 255);
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0}
-    40% {opacity: 1;}
-}
-@keyframes picture_fadeIn {
-    0% {opacity: 0;}
-    30% {opacity: 0}
-    40% {opacity: 1;}
-}
-@keyframes zoomIn {
-    10% {
-      opacity: 0;
-      transform: scale3d(0.3, 0.3, 0.3);
-    }
-    30% {
-      opacity: 1;
-    }
-}
 
-@keyframes box_move{
-    0% {width:0px;color:aliceblue; font-size:0px ;background-color:aliceblue;}
-    60% {width:350px; color:rgb(176, 197, 255); font-size:50px; background-color:rgb(176, 197, 255);}
-    70% {width:350px;background-color:rgb(176, 197, 255);}
-}
-@keyframes content_fadeIn {
-    0% {color: aliceblue;}
-    60% {color:aliceblue;}
-    70% {color:rgb(105, 105, 105);}
-}
+
 @keyframes button-hover-effect {
     0% {
       background-position: 0% 50%;
@@ -189,3 +146,4 @@ body{
       background-position: 0% 50%;
     }
 }
+
