@@ -51,49 +51,67 @@ body{
     color: blue;
 }
 .select_1{
+    height: 20px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+
     font-family: sans-serif;
     font-size: 22px;
     font-style: bold;
     text-align: center;
     color: rgb(158, 158, 158);
-    margin: 0 20px 0 520px;
+
+    margin: 0 7px 0 400px;
+    padding: 10px 50px 10px 50px;
 
 }
 .select_2{
+    height: 20px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+
     font-family: sans-serif;
     font-size: 22px;
     font-style: bold;
     text-align: center;
     color: rgb(158, 158, 158);
-    margin: 0 20px 0 20px;
+
+    margin: 0 7px 0 7px;
+    padding: 10px 50px 10px 50px;
 
 }
 .select_3{
     height: 20px;
     width: 100px;
     border-radius: 100px;
-    background-color: rgb(0, 110, 255);
+    background-color: aliceblue;
 
     font-family: sans-serif;
     font-size: 22px;
     font-style: bold;
     text-align: center;
-    color: rgb(230, 230, 230);
-    margin: 0px 20px 0px 20px;
+    color: rgb(158, 158, 158);
+
+    margin: 0px 7px 0px 7px;
     padding: 10px 50px 10px 50px;
 }
 .words{
     height:60px;
     width:350px;
     background-color:rgb(176, 197, 255);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
 
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
     font-size: 50px;
     font-style: italic;
 
     margin:200px 0 0 150px;
     padding: 10px 10px 10px 10px;
+
 }
 .content{
     height:200px;
@@ -105,7 +123,7 @@ body{
     color: rgb(105, 105, 105);
     text-align: left;
 
-    margin:0px 0 0 150px;
+    margin:20px 0 0 150px;
     padding: 10px 10px 10px 10px;
 }
 .round_water{
@@ -144,6 +162,23 @@ body{
 .content{
     animation: content_fadeIn 2s;
 }
+.words:hover {
+    letter-spacing: 5px;
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 255, 0.9),
+      rgba(255, 255, 0, 0.9),
+      rgba(255, 0, 0, 0.9)
+    );
+    background-size: 600% 600%;
+    animation: button-hover-effect 7s ease infinite;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  }
+
+.select_1:hover,.select_2:hover,.select_3:hover{
+    color: rgb(230, 230, 230);
+    background-color: rgb(0, 110, 255);
+}
 @keyframes fadeIn {
     0% {opacity: 0}
     40% {opacity: 1;}
@@ -181,3 +216,14 @@ body{
     60% {color:aliceblue;}
     70% {color:rgb(105, 105, 105);}
 }
+@keyframes button-hover-effect {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
