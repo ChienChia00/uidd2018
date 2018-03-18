@@ -5,8 +5,8 @@ body{
 #paper{
     background-color: aliceblue;
     border-radius: 15px;
-    margin: 20px auto 20px auto;
-    padding:25px 15px 20px 15px;
+    margin: 15px auto 15px auto;
+    padding:25px 15px 40px 15px;
     width: 1300px;
     height: 650px;
 }
@@ -112,7 +112,7 @@ body{
     width:400px;
     background-color: rgba(167, 255, 179, 0.6);
 
-    margin: -250px 100px 0 0;
+    margin: -250px 100px 0px 0;
     padding: 10px 10px 10px 10px;
 }
 
