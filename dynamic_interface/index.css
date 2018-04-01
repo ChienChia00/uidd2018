@@ -1,0 +1,140 @@
+body {
+    background-image: url("picture/background.png");
+    background-repeat: no-repeat;
+    background-size:1920px 900px;
+    overflow: hidden;
+    margin: 0px;
+    
+    /*1366*768*/
+}
+#page_start{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 1920px;
+    height: 900px;
+    top: 0px;
+    left: 0px;
+}
+#btn_start{
+    background-image: url("picture/btn_start_small.png");
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 170px;
+    height: 170px;
+    top: 350px;
+    left: 890px;
+}
+#btn_restart{
+    background-image: url("picture/btn_restart_small.png");
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 400px;
+    height: 180px;
+    top: 680px;
+    left: 1220px;
+}
+.tool{
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 120px;
+    height: 400px;
+}
+#salt_mountain{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("picture/salt_mountain0.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 950px;
+    height: 449px;
+    top: -130px;
+    left: -150px;
+}
+
+#tool1{
+    background-image: url("picture/tool1_small.png");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 30px 10px 20px 10px;
+    width: 100px;
+    height: 100px;
+}
+#tool2{
+    background-image: url("picture/tool2_small.png");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 20px 10px 20px 10px;
+    width: 100px;
+    height: 100px;
+}
+#tool3{
+    background-image: url("picture/tool3_small.png");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 20px 10px 30px 10px;
+    width: 100px;
+    height: 100px;
+}
+#salt1{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 300px;
+    height: 150px;
+    top: 85px;
+    left: 650px;
+}
+
+#salt2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 300px;
+    height: 150px;
+    top: 80px;
+    left: 1170px;
+}
+#salt3{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 180px;
+    height: 130px;
+    top: 80px;
+    left: 1690px;
+}
+#salt4{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 390px;
+    height: 250px;
+    top: 115px;
+    left: 890px;
+}
+#salt5{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 350px;
+    height: 225px;
+    top: -138px;
+    left: 1520px;
+}
