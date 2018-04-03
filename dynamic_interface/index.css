@@ -125,27 +125,33 @@ body {
 }
 #salt1{
     position:absolute;
+    background-image: url("picture/salt0.png");
+    background-position: bottom center;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 265px;
+    height: 150px;
+    top: 9%;
+    left: 38.5%;
+}
+
+#salt2{
+    position: absolute;
+    background-image: url("picture/salt0.png");
+    background-position: bottom center;
     /*background-color: rgba(0, 0, 0, 0.3);*/
     background-repeat: no-repeat;
     background-size:100%;
     width: 270px;
     height: 150px;
-    top: 9.7%;
-    left: 37.5%;
-}
-
-#salt2{
-    position: absolute;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
-    background-repeat: no-repeat;
-    background-size:100%;
-    width: 280px;
-    height: 150px;
     top: 9%;
-    left: 60%;
+    left: 61%;
 }
 #salt3{
     position: absolute;
+    background-image: url("picture/salt0.png");
+    background-position: top right;
     /*background-color: rgba(0, 0, 0, 0.3);*/
     background-repeat: no-repeat;
     background-size:100%;
@@ -156,21 +162,76 @@ body {
 }
 #salt4{
     position: absolute;
+    background-image: url("picture/salt0.png");
+    background-position: right;
     /*background-color: rgba(0, 0, 0, 0.3);*/
     background-repeat: no-repeat;
     background-size:100%;
     width: 390px;
-    height: 240px;
+    height: 200px;
     top: 28.5%;
-    left: 890px;
+    left: 45%;
 }
 #salt5{
     position: absolute;
+    background-image: url("picture/salt0.png");
+    background-position: right;
     /*background-color: rgba(0, 0, 0, 0.3);*/
     background-repeat: no-repeat;
     background-size:100%;
-    width: 350px;
-    height: 225px;
+    width: 320px;
+    height: 180px;
+    top: 28%;
+    left: 76%;
+}
+
+#area1{
+    position:absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 265px;
+    height: 150px;
+    top: 9%;
+    left: 38.5%;
+}
+
+#area2{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 270px;
+    height: 150px;
+    top: 9%;
+    left: 61%;
+}
+#area3{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 160px;
+    height: 130px;
+    top: 10%;
+    left: 84%;
+}
+#area4{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 390px;
+    height: 200px;
     top: 28.5%;
-    left: 74%;
+    left: 45%;
+}
+#area5{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 320px;
+    height: 180px;
+    top: 28%;
+    left: 76%;
+}
+#area_salt_mountain{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    width: 650px;
+    height: 370px;
+    top: 60%;
+    left: 7.5%;
+    
 }
