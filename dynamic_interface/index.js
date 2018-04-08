@@ -10,8 +10,10 @@ var salt2_state=0;
 var salt3_state=0;
 var salt4_state=0;
 var salt5_state=0;
+var flag_page_intro=0;
 $(document).ready(function(){
     $("#btn_restart").hide();
+    $("#intro_page").hide();
     $("#TOOL1").hide();
     $("#TOOL2").hide();
     $("#TOOL3").hide();
@@ -34,13 +36,40 @@ $(document).ready(function(){
             $("#btn_restart").css("width","380px").css("height","150px");
             $("#btn_restart").css("left","60%").css("top","80%");
         }
-    ); 
+    );
+    $("#btn_intro").hover(
+        function(){
+            $("#btn_intro").css("width","420px").css("height","170px");
+            $("#btn_intro").css("left","39%").css("top","79.5%");
+        },
+        function(){
+            $("#btn_intro").css("width","380px").css("height","150px");
+            $("#btn_intro").css("left","40%").css("top","80.5%");
+        }
+    );
     $("#btn_start").click(
         function(){
             $("#page_start").hide();
             $("#btn_start").hide();
+            alert("click intro to learn how to play!!!");
         }
     );
+    $("#btn_intro").click(
+        function(){
+            if(flag_page_intro == 0)
+            {
+                flag_page_intro=1;
+                $("#intro_page").show();
+                return;
+            }
+            if(flag_page_intro == 1)
+            {
+                flag_page_intro=0;
+                $("#intro_page").hide();
+                return;
+            }
+        }
+    )
     $("#btn_restart").click(
         function(){
             $("#page_start").hide();
