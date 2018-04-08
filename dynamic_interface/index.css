@@ -58,11 +58,10 @@ body {
     background-color: rgba(104, 185, 240,0.75);
     background-size:100%;
     padding: 0px 50px 20px 50px;
-    margin: 0px auto;
     width: 1000px;
     height: 550px;
-    /*top: 10%;
-    left: 23%;*/
+    top: 10%;
+    left: 23%;
 }
 #t1{
     text-align: center;
